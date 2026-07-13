@@ -8,5 +8,5 @@ git branch -M main
 git remote remove origin 2>/dev/null
 git remote add origin https://github.com/JesusFV04/portafolio-bigdata.git
 echo "Subiendo a GitHub..."
-git push -u origin main
+git push -u origin main --force
 echo "Si fue rechazado por contenido previo:  git push -u origin main --force"
