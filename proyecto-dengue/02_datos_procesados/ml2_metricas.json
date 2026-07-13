@@ -1,0 +1,108 @@
+{
+  "resolucion": "mensual",
+  "periodo": "2000-2024",
+  "test": "2024 (out-of-time)",
+  "comparacion_2024": {
+    "Persistencia (lag-1)": {
+      "R2": 0.323,
+      "RMSE": 24446.0,
+      "MAE": 15693.6
+    },
+    "Naive estacional (lag-12)": {
+      "R2": -0.071,
+      "RMSE": 30764.2,
+      "MAE": 23374.5
+    },
+    "Random Forest (sin clima)": {
+      "R2": 0.533,
+      "RMSE": 20307.4,
+      "MAE": 13231.2
+    },
+    "Random Forest (con clima)": {
+      "R2": 0.407,
+      "RMSE": 22881.9,
+      "MAE": 12485.1
+    },
+    "Gradient Boosting (sin clima)": {
+      "R2": 0.566,
+      "RMSE": 19580.9,
+      "MAE": 12745.6
+    },
+    "Gradient Boosting (con clima)": {
+      "R2": 0.602,
+      "RMSE": 18744.3,
+      "MAE": 10972.9
+    },
+    "SARIMA (sin clima)": {
+      "R2": 0.099,
+      "RMSE": 28209.8,
+      "MAE": 16230.7
+    },
+    "SARIMAX (con clima)": {
+      "R2": 0.189,
+      "RMSE": 26770.8,
+      "MAE": 15827.5
+    }
+  },
+  "walk_forward_2019_2024": {
+    "RF sin clima": {
+      "R2": 0.563,
+      "RMSE": 11249.7,
+      "MAE": 4792.9
+    },
+    "RF con clima": {
+      "R2": 0.463,
+      "RMSE": 12466.6,
+      "MAE": 4867.0
+    }
+  },
+  "por_departamento_2024": {
+    "PIURA": {
+      "R2": 0.55,
+      "RMSE": 2234.7,
+      "MAE": 1174.8
+    },
+    "LIMA": {
+      "R2": -0.047,
+      "RMSE": 13126.8,
+      "MAE": 6217.8
+    },
+    "LORETO": {
+      "R2": -0.063,
+      "RMSE": 439.0,
+      "MAE": 278.7
+    },
+    "LA LIBERTAD": {
+      "R2": -0.007,
+      "RMSE": 5977.0,
+      "MAE": 3173.5
+    },
+    "ICA": {
+      "R2": 0.029,
+      "RMSE": 3807.9,
+      "MAE": 2078.5
+    }
+  },
+  "importancia_rf_clima": {
+    "sin": 0.005,
+    "cos": 0.029,
+    "lag1": 0.812,
+    "lag2": 0.017,
+    "lag3": 0.009,
+    "lag12": 0.013,
+    "t2m": 0.02,
+    "rh2m": 0.012,
+    "prec": 0.011,
+    "prec_l1": 0.019,
+    "prec_l2": 0.019,
+    "t2m_l1": 0.015,
+    "rh_l1": 0.02
+  },
+  "departamentos_clima": [
+    "PIURA",
+    "LIMA",
+    "LORETO",
+    "LA LIBERTAD",
+    "ICA"
+  ]
+}

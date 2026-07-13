@@ -1,0 +1,14 @@
+# Entorno reproducible para el ETL y el modelo de Big Data (dengue Peru)
+# Uso:
+#   python -m venv sparkenv
+#   source sparkenv/bin/activate      (Windows: sparkenv\Scripts\activate)
+#   pip install -r requirements.txt
+# Requiere Java 8/11/17 instalado (JAVA_HOME configurado) para Apache Spark.
+pyspark==3.5.1
+pandas==2.3.3
+pyarrow==25.0.0
+numpy==2.2.6
+# Modelo avanzado (ml2_clima_comparacion.py)
+scikit-learn==1.7.2
+statsmodels==0.14.6
+matplotlib

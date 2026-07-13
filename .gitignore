@@ -1,0 +1,20 @@
+# Datos crudos y tablas pesadas (exceden el límite de GitHub, se regeneran con el ETL)
+*.csv
+!proyecto-dengue/02_datos_procesados/agg_*.csv
+!proyecto-dengue/02_datos_procesados/dim_*.csv
+!proyecto-dengue/02_datos_procesados/clima_mensual.csv
+!proyecto-dengue/02_datos_procesados/canal_endemico.csv
+!proyecto-dengue/02_datos_procesados/prioridad_departamentos.csv
+!proyecto-dengue/02_datos_procesados/proyeccion_2025.csv
+!proyecto-dengue/02_datos_procesados/ml*_pred*.csv
+!proyecto-dengue/02_datos_procesados/ml2_serie_mensual.csv
+!proyecto-dengue/02_datos_procesados/kpis_dashboard.csv
+
+# Entornos y temporales
+sparkenv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.crc
+*.log
