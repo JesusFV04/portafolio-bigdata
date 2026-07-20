@@ -35,7 +35,17 @@ python ml2_clima_comparacion.py    # modelado con clima
 
 ---
 
-## 🚗 Proyecto 2 · Reporte de Accidentes de Tránsito 2022 (EE.UU.)
+## 🩺 Proyecto 2 · HealthPulse Perú — IA sobre Big Data en salud
+
+Plataforma interactiva de análisis de **riesgo clínico con Inteligencia Artificial**, producto del estudio «Comparación de distribuciones Linux en el procesamiento de health big data». Modelos de **Random Forest** y **K-Means** (Spark MLlib) que corren en vivo en el navegador sobre datos abiertos de diabetes del Perú (EsSalud + SINADEF, 2020–2024): predictor de riesgo, perfiles clínicos, triaje en tiempo real (Apache Storm) y comparación de rendimiento entre distribuciones Linux.
+
+**Herramientas:** `Machine Learning` · `Spark MLlib` · `Random Forest` · `K-Means` · `Apache Storm` · `Linux` · `React/Netlify`
+
+🌐 App en vivo: https://gorgeous-starburst-cf1529.netlify.app/
+
+---
+
+## 🚗 Proyecto 3 · Reporte de Accidentes de Tránsito 2022 (EE.UU.)
 
 Tablero analítico en **Power BI** sobre accidentes de tránsito en Estados Unidos (2022): limpieza y transformación con Power Query, indicadores clave (fallecimientos, total de accidentes, bajas promedio) y visualizaciones de decesos por mes y por estado.
 

@@ -39,6 +39,7 @@
   .flag{font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px;white-space:nowrap}
   .flag.f1{background:rgba(230,57,70,.16);color:#ff8b95;border:1px solid var(--accent)}
   .flag.f2{background:rgba(72,149,239,.16);color:#8fc0f4;border:1px solid var(--blue)}
+  .flag.f3{background:rgba(42,157,143,.18);color:#5fd0bf;border:1px solid var(--teal)}
   .pdesc{color:var(--mut);font-size:14.5px;margin:14px 0}
   .stack{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
   .chip{background:var(--card2);border:1px solid var(--line);border-radius:7px;padding:5px 11px;font-size:12.5px;color:var(--ink)}
@@ -78,7 +79,7 @@
 <body>
 <nav><div class="wrap">
   <div class="brand">Jesus Figueroa · Big<b>Data</b></div>
-  <div><a href="#proyectos">Proyectos</a><a href="#dengue">Dengue</a><a href="#praxis">Accidentes</a><a href="#logros">Logros</a><a href="#sobre">Sobre mí</a></div>
+  <div><a href="#proyectos">Proyectos</a><a href="#dengue">Dengue</a><a href="#healthpulse">HealthPulse</a><a href="#praxis">Accidentes</a><a href="#logros">Logros</a><a href="#sobre">Sobre mí</a></div>
 </div></nav>
 
 <header class="hero"><div class="wrap">
@@ -94,7 +95,7 @@
 
 <section id="proyectos"><div class="wrap">
   <h2><span class="n">Proyectos</span></h2>
-  <p class="sub">Dos trabajos que cubren el ciclo completo del dato: un proyecto de Big Data de extremo a extremo y un tablero analítico en Power BI.</p>
+  <p class="sub">Tres trabajos que cubren el ciclo completo del dato: un pipeline de Big Data de extremo a extremo, una plataforma de IA en salud y un tablero analítico en Power BI.</p>
 
   <!-- ============ PROYECTO 1: DENGUE ============ -->
   <div class="project" id="dengue">
@@ -136,7 +137,35 @@
     </div>
   </div>
 
-  <!-- ============ PROYECTO 2: PRAXIS ACCIDENTES ============ -->
+  <!-- ============ PROYECTO 2: HEALTHPULSE IA SALUD ============ -->
+  <div class="project" id="healthpulse">
+    <div class="pbody">
+      <div class="ptop">
+        <div>
+          <div class="ptitle">🩺 HealthPulse Perú — IA sobre Big Data en salud</div>
+          <div class="pmeta">Machine Learning · Spark MLlib · Apache Storm · Linux · datos abiertos EsSalud + SINADEF</div>
+        </div>
+        <span class="flag f3">Demo IA en vivo</span>
+      </div>
+      <p class="pdesc">Plataforma interactiva de análisis de riesgo clínico con Inteligencia Artificial, producto del estudio «Comparación de distribuciones Linux en el procesamiento de health big data». Modelos de <b>Random Forest</b> y <b>K-Means</b> (entrenados con Spark MLlib) corren en vivo en el navegador sobre datos abiertos de diabetes del Perú (2020–2024): incluye un predictor de riesgo, tres perfiles clínicos descubiertos por clustering, triaje de pacientes en tiempo real estilo Apache Storm y una comparación de rendimiento entre distribuciones Linux. Demostración académica de la UNDC.</p>
+      <div class="stack">
+        <span class="chip">Machine Learning</span><span class="chip">Random Forest</span><span class="chip">K-Means</span>
+        <span class="chip">Spark MLlib</span><span class="chip">Apache Storm</span><span class="chip">Linux (Ubuntu)</span>
+        <span class="chip">Big Data en salud</span><span class="chip">React · Netlify</span>
+      </div>
+    </div>
+    <div class="pbody" style="padding-top:0">
+      <div style="font-size:12.5px;color:var(--mut);margin-bottom:8px">▶ Aplicación en vivo (interactúa dentro del marco o ábrela a pantalla completa):</div>
+      <div class="embed" id="hp-embed">
+        <iframe src="https://gorgeous-starburst-cf1529.netlify.app/" title="HealthPulse Perú" style="height:760px;aspect-ratio:auto" loading="lazy"></iframe>
+      </div>
+      <div class="links">
+        <a class="btn blue" href="https://gorgeous-starburst-cf1529.netlify.app/" target="_blank">Abrir HealthPulse Perú ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PROYECTO 3: PRAXIS ACCIDENTES ============ -->
   <div class="project" id="praxis">
     <div class="pbody">
       <div class="ptop">
